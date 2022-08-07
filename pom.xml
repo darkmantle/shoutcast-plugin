@@ -27,6 +27,13 @@
             <url>https://nexus.scarsz.me/content/groups/public/</url>
         </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/darkmantle/shoutcast-plugin</url>
+        </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
