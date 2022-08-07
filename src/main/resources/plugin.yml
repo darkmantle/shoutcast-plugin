@@ -1,4 +1,4 @@
-main: zone.xradio.shoutcastplugin.App
+main: zone.xradio.App
 name: ShoutcastPlugin
 version: 0.1
 depends: [DiscordSRV]

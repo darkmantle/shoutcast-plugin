@@ -1,4 +1,4 @@
-package zone.xradio.shoutcastplugin;
+package zone.xradio;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;

@@ -1,4 +1,4 @@
-package zone.xradio.shoutcastplugin;
+package zone.xradio;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

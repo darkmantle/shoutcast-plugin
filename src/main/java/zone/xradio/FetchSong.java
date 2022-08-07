@@ -1,4 +1,4 @@
-package zone.xradio.shoutcastplugin;
+package zone.xradio;
 
 import java.net.URL;
 import javax.xml.parsers.DocumentBuilderFactory;

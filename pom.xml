@@ -3,7 +3,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>zone.xradio.shoutcastplugin</groupId>
+    <groupId>zone.xradio</groupId>
     <artifactId>shoutcastplugin</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
@@ -27,13 +27,6 @@
             <url>https://nexus.scarsz.me/content/groups/public/</url>
         </repository>
     </repositories>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/darkmantle/shoutcast-plugin</url>
-        </repository>
-    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
@@ -65,7 +58,7 @@
                         <relocation>
                             <pattern>org.bstats</pattern>
                             <!-- Replace this with your package! -->
-                            <shadedPattern>zone.xradio.shoutcastplugin</shadedPattern>
+                            <shadedPattern>zone.xradio</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
